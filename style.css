@@ -6,8 +6,8 @@
     margin-top: 50px;
 }
 .youtube{
-    height: 700px;
-    width: 600px;
+    height: 100%;
+    width: 100%;
     border: 2px solid black;
     padding: 5px;
     display: flex;
@@ -46,8 +46,8 @@ a:hover{
     color: yellow;
 }
 .galatasaray{
-    height: 700px;
-    width: 600px;
+    height: 100%;
+    width: 100%;
     border: 2px solid black;
     padding: 5px;
     display: flex;
@@ -67,8 +67,8 @@ a:hover{
     overflow: auto;
 }
 .nba{
-    height: 700px;
-    width: 600px;
+    height: 100%;
+    width: 100%;
     border: 2px solid black;
     padding: 5px;
     display: flex;
@@ -86,4 +86,5 @@ a:hover{
     font-size: 25px;
     height: 15%;
     overflow: auto;
+
 }
