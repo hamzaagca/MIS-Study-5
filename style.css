@@ -1,0 +1,89 @@
+
+.cards{
+    display: flex;
+    justify-content: center; /* yatay ortalama */
+    gap: 20px;               /* kartlar arası boşluk */
+    margin-top: 50px;
+}
+.youtube{
+    height: 700px;
+    width: 600px;
+    border: 2px solid black;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+}
+
+img{
+    width: 100%;
+    height: 50%;
+}
+
+.youtubekafa{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    height: 15%;
+}
+
+.youtubeiçerik{
+    text-align: justify;
+    font-size: 19px;
+    height: 35%;
+    overflow: auto;
+}
+
+p{
+    margin: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+}
+.galatasaray{
+    height: 700px;
+    width: 600px;
+    border: 2px solid black;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+.galakafa{
+    text-align: center;
+    font-size: 20px;
+    color: yellow;
+    height: 15%;
+}
+.galaiçerik{
+    text-align: justify;
+    font-size: 20px;
+    height: 15%;
+    overflow: auto;
+}
+.nba{
+    height: 700px;
+    width: 600px;
+    border: 2px solid black;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+}
+.nbakafa{
+    text-align: center;
+    font-size: 20px;
+    color: blue;
+    height: 15%;
+}
+.nbaiçerik{
+    text-align: justify;
+    font-size: 25px;
+    height: 15%;
+    overflow: auto;
+}
