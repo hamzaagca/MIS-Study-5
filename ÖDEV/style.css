@@ -1,13 +1,13 @@
 
 .cards{
     display: flex;
-    justify-content: center; /* yatay ortalama */
-    gap: 20px;               /* kartlar arası boşluk */
+    justify-content: center; 
+    gap: 20px;               
     margin-top: 50px;
 }
 .youtube{
-    height: 100%;
-    width: 100%;
+    height: 400px ;
+    width: 500px;
     border: 2px solid black;
     padding: 5px;
     display: flex;
@@ -46,8 +46,8 @@ a:hover{
     color: yellow;
 }
 .galatasaray{
-    height: 100%;
-    width: 100%;
+    height: 400px;
+    width: 500px;
     border: 2px solid black;
     padding: 5px;
     display: flex;
@@ -67,8 +67,8 @@ a:hover{
     overflow: auto;
 }
 .nba{
-    height: 100%;
-    width: 100%;
+    height: 400px;
+    width: 500px;
     border: 2px solid black;
     padding: 5px;
     display: flex;
